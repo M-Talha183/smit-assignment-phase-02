@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    opacity: 0.8;
+    height: 70px;
+    
+
+}
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    margin-left: 40px;
+
+}
+
+.cont{
+    display: flex;
+    gap: 40px;
+    margin-right:40px ;
+    font-size: large;
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+
+a {
+    text-decoration: none;
+   color: white;  
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+ padding-top: 40px;
+    background-color: rgba(128, 128, 128, 0.219);
+    
+}
+.text{
+    width: 50%;
+    padding: 20px;
+    line-height: 1.4;
+    
+    
+}
+.text > h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+.text > p{
+    font-size: large;
+    margin-bottom: 20px;
+}
+.text > button{
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img{
+    width: 50%;
+}
+.img > img{
+    width: 90%;
+    height: 300px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+/*  foooter code  */
+.foot{
+    width: 100%;
+    /* height: 300px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    
+  /* padding-top: 40px; */
+}
+.f1{
+    width: 30%;
+   
+    height: 250px;
+
+}
+.f11{
+   padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    line-height: 1.3;
+    font-size: small;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.card{
+    width: 60px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+}
+.about{
+    width: 30%;
+    
+    height: 250px;
+    
+}
+.about > p{
+    padding-top: 30px;
+    line-height: 1.3;
+    font-size: smaller;
+}
+.contact{
+    width: 20%;
+  
+    height: 250px;
+}
+.c1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.c1>img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+}
+#c1{
+      margin-top: 30px;
+}
+
+/* cards section */
+.cards{
+    width: 100%;
+    /* height: 550px; */
+    padding-bottom: 40px;
+}
+.cards > h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.cr1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-top: 30px;
+}
+.cr11{
+    width: 20%;
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: center; 
+    border: 2px solid gray;
+}
+.cr11 > button{
+    width: 50% ;
+    padding: 10px;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+}
+.cr11 > p{
+    line-height: 1.3;
+}
+.cr11 > img{
+    width: 100%;
+    height: 150px;
+   padding-bottom: 15px;
+}
+
+
+@media (max-width: 768px) {
+
+  /* ===== NAVBAR ===== */
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 15px 0;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    gap: 12px;
+  }
+
+  /* ===== HERO / MAIN ===== */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img img {
+    width: 90%;
+    height: auto;
+  }
+
+  /* ===== CARDS ===== */
+
+  
+  .cr1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cr11 {
+    width: 90%;
+    height: auto;
+  }
+
+  /* ===== FOOTER ===== */
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    
+    padding: 20px 15px;   /* left right kam */
+  
+
+
+  }
+
+  .f1,
+  .about,
+  .contact {
+    width: 90%;
+    height: auto;
+        margin: 0 auto;      /* center */
+
+  }
+
+  .f11 {
+    justify-content: center;
+  }
+
+  .c1 {
+    justify-content: center;
+  }
+}
