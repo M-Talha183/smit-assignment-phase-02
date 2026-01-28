@@ -152,6 +152,37 @@
     height: 50px;
     border-radius: 10px;
 }
+/* ****************************************************** ABOUT SECTION     *************************** */
+.about{
+    padding-top: 50px;
+    color: gray;
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(196, 238, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about h3{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.726);
+}
+.a1{
+    width: 60%;
+    font-size: large;
+    line-height: 1.8;
+    color: rgb(49, 45, 45);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: left;
+    font-weight: 500;
+}
+
 /* NAvbar  */
 @media screen and (max-width: 840px) {
     .Navbar{
@@ -175,6 +206,15 @@
     .course h3{
     font-size: 1.5rem;
    
+}
+.a1{
+    width: 80%;
+    font: medium;   
+}
+.about h3{
+    font-size: 1.5.5rem;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.726);
 }
 }
 
