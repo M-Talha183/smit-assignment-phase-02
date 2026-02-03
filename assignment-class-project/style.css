@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*  ************************************* Navbar code *********************** */
 nav{
     background-color: black;
     width: 100%;
@@ -22,9 +23,10 @@ nav{
 }
 .sub-nav{
     display: flex;
-    gap: 30px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
+    /* background-color: aqua; */
 }
 .sub-nav1 li > a{
     text-decoration: none;
@@ -52,6 +54,138 @@ nav{
     background-color: red;
     color: white;
 }
+/* ************************************** Navbar End  ********************************************* */
+/* ************************************* Welcome start ******************************************** */
+.welcome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+} 
+.welcome h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.h11{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+.welcome h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.w-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+.w-card{
+    text-align: center;
+}
+.logo1{
+    background-color: white;
+    padding: 10px;
+    height: 180px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-card > button{
+    padding: 15px 50px;
+    font-size: large;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+/* ******************************* welcome End  ************************************************* */
+.franchises{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.franchises h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.franchises h2{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fran-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.sub-fran {
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 30px;
+
+}
+.fran-logo{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: white;
+}
+.fran-logo > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.sub-fran h3{
+    font-size: 30px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-fran p{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-fran button{
+    padding: 15px 60px;
+    font-size: large;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    border: 1px solid white;
+}
 /* Navbar Responsive  */
 @media (max-width: 768px) {
     nav {
@@ -71,6 +205,24 @@ nav{
         padding: 15px;
         font-size: medium;
     }
+    /* Welcome Responsive  */
+    .welcome{
+        height: auto;
+        padding: 30px 10px;
+    }
+    .h11{
+        font-size: 50px;
+    }
+    .welcome p{
+        font-size: 18px;
+    }
+    .welcome h2{
+        font-size: 30px;
+    }
+    .welcome h1{
+        font-size: 40px;
+    }
+/*  Welcome responsive End  */
 }
 @media (max-width: 480px) {
     nav {
@@ -86,24 +238,64 @@ nav{
         padding: 10px;
         font-size: small;
     }
+    /* Welcome Responsive  */
+    .welcome{
+        height: auto;
+        padding: 30px 10px;
+    }
+    .h11{
+        font-size: 50px;
+    }
+    .welcome p{
+        font-size: 18px;
+    }
+    .welcome h2{
+        font-size: 30px;
+    }
+    .welcome h1{
+        font-size: 40px;
+    }
+    
+/*  Welcome responsive End  */
 }
 @media (max-width : 1040px){
     .nav{
         justify-content: space-between;
+        padding: 30px;
     }
     .logo > img {
         width: 100px;
     }
      #btn1, #btn2 {
-        padding: 15px;
+        padding: 10px;
         font-size: small;
     }
     .sub-nav{
-    gap: 15px;  
+    gap: 20px;  
     }
-    .sub-nav1{ 
-    gap: 15px;
+    .sub-nav1{         
+    gap: 10px;
 }
-   
+ /* Welcome Responsive  */
+    .welcome{
+        height: auto;
+        padding: 30px 10px;
+    }
+    .h11{
+        font-size: 50px;
+    }
+    .welcome p{
+        font-size: 18px;
+    }
+    .welcome h2{
+        font-size: 30px;
+    }
+    .welcome h1{
+        font-size: 40px;
+    }
+    
+    /*  Welcome responsive End  */
+
 
 }
+   
