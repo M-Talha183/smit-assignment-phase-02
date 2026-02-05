@@ -326,6 +326,80 @@ nav{
 .card > p{
     font-size: large;
 }
+/*  ************************************************** Footer ************************************** */
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgba(27, 20, 20, 0.993);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.f1{
+    width: 30%;
+    padding: 10px;
+}
+.f1 > p{
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.f-logo{
+    width: 30%;
+    padding-bottom: 50px;
+}
+.f-logo > img{
+    width: 100%;
+    height: auto;
+}
+.f2{
+    width: 20%;
+}
+.f2  p{
+     font-size: 20px;
+    line-height: 1.8;
+}
+.fh{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.f3{
+    width: 25%;
+}
+
+.ch{
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.f4{
+    width: 15%;
+}
+
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+}
+.fb button{
+    padding:  20px;
+    font-size: large;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+}
+
 
 /* Navbar Responsive  */
 @media (max-width: 768px) {
@@ -381,9 +455,33 @@ nav{
 /* Village End  */
 /* Opening start  */
 .opening h1 , .opening h2{
-         font-size: 55px;
+         font-size: 45px;
     }
+    
     /* Opening End  */
+    /* Footer  */
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .f1, .f2, .f3, .f4{
+        width: 80%;
+        text-align: center;
+    }
+    /* .f-logo{
+        ;  
+  } */
+   .f-logo {
+        width: 90%;
+    }
+    .f-logo > img {
+        width: 50%;
+    }
+   .fb{
+        flex-direction: row;
+        gap: 10px;
+    }
 }
 @media (max-width: 480px) {
     nav {
@@ -434,8 +532,11 @@ nav{
     }
 /* Village End  */
     /* Opening  */
-    .opening h1 , .opening h2{
-         font-size: 40px;
+    .opening h1 {
+         font-size: 35px;
+    }
+    .opening h2 {
+         font-size: 30px;
     }
 }
 @media (max-width : 1040px){
@@ -480,12 +581,25 @@ nav{
         height: 300px;
         /* width: 40%; */
 }
-.opening h1 , .opening h2{
-         font-size: 75px;
+
+/* Footer  */
+.footer{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
     }
-
-
-
-
-}
+    .f1, .f2, .f3, .f4{
+        width: 80%;
+        text-align: center;
+    }
+    .f-logo {
+        width: 90%;
+    }
+    .f-logo > img {
+        width: 50%;
+    }
+    .fb{
+        flex-direction: row;
+        gap: 10px;
+}}
    
