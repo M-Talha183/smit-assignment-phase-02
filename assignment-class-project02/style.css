@@ -12,3 +12,30 @@
 .navbar{
     border-bottom: 1px solid gray;
 }
+/*  *********************************************** Cards 1s ******************************************** */
+/* Remove card border completely */
+
+.custom-card {
+    border: none;
+    padding-bottom: 20px; /* bottom padding */
+    width: 250px; /* set a fixed width for the card */
+    
+}
+
+/* Image styling */
+.custom-card img {
+    border-radius: 12px; /* rounded corners */
+    border: none; /* remove any border */
+    height: 200px;
+}
+
+/* Make heading bold and black */
+.custom-card .card-title {
+    font-weight: 700;
+    color: #000;
+}
+@media (max-width: 576px) {
+    .custom-card {
+        width: 100%; /* full width on small screens */
+    }
+}
