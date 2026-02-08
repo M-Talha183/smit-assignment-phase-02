@@ -18,7 +18,7 @@
 .custom-card {
     border: none;
     padding-bottom: 20px; /* bottom padding */
-    width: 250px; /* set a fixed width for the card */
+    width: 220px; /* set a fixed width for the card */
     
 }
 
@@ -34,8 +34,71 @@
     font-weight: 700;
     color: #000;
 }
+.btn1{
+    padding: 5px 15px;
+    background-color: rgba(214, 207, 207, 0.877);
+    color: green;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+}
+.cards{
+    text-align: center;
+        padding-top: 25px;
+        
+}
+.cards span{
+    color: green;
+}
+.cards p{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.cards h1{
+
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
 @media (max-width: 576px) {
     .custom-card {
         width: 100%; /* full width on small screens */
     }
+}
+
+/* ********************************************** Our Blog ************************************************************* */
+
+.custom-card1 {
+    border: none;
+    padding-bottom: 20px; /* bottom padding */
+    width: 300px; /* set a fixed width for the card */
+    text-align: left;
+    
+}
+
+/* Image styling */
+.custom-card1 img {
+    border-radius: 12px; /* rounded corners */
+    border: none; /* remove any border */
+    height: 200px;
+}
+
+/* Make heading bold and black */
+.custom-card1 .card-title {
+    font-weight: 700;
+    color: #000;
+}
+.btn2{
+    padding:15px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
 }
