@@ -6,3 +6,32 @@
 .navbar{
     border-bottom: 1px solid gray;
 }
+.card > img{
+    height: 250px;
+}
+.cards{
+    padding-top: 30px;
+}
+.cards button{
+    color: white;
+    padding: 10px;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-card {
+      min-height: 70vh;   /* desktop hero height */
+
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.hero-img {
+  max-height: 320px;
+}
